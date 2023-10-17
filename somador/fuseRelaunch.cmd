@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/giron/somador/somador4_isim_beh.exe" -prj "/home/giron/somador/somador4_beh.prj" "work.somador4" 
