@@ -1,0 +1,4 @@
+AR somador1 hardware /home/giron/somador/somador1.vhd sub00/vhpl01 1697509683
+AR somador4 hardware /home/giron/somador/somador.vhd sub00/vhpl03 1697509685
+EN somador1 NULL /home/giron/somador/somador1.vhd sub00/vhpl00 1697509682
+EN somador4 NULL /home/giron/somador/somador.vhd sub00/vhpl02 1697509684

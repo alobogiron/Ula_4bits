@@ -1,0 +1,11 @@
+V3 7
+FL /home/giron/somador/somador.vhd 2023/10/16.23:27:09 P.20131013
+EN work/somador4 1697509684 FL /home/giron/somador/somador.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/somador4/hardware 1697509685 \
+      FL /home/giron/somador/somador.vhd EN work/somador4 1697509684 CP somador1
+FL /home/giron/somador/somador1.vhd 2023/10/16.23:26:22 P.20131013
+EN work/somador1 1697509682 FL /home/giron/somador/somador1.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/somador1/hardware 1697509683 \
+      FL /home/giron/somador/somador1.vhd EN work/somador1 1697509682
