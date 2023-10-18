@@ -2,12 +2,12 @@ Command line:
    subtrator4_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  40837
+     -socket  56355
 
-Wed Oct 18 10:09:21 2023
+Wed Oct 18 16:07:54 2023
 
 
- Elaboration Time: 0.03 sec
+ Elaboration Time: 0.05 sec
 
  Current Memory Usage: 194.58 Meg
 
@@ -21,9 +21,9 @@ Wed Oct 18 10:09:21 2023
  Total Scalar Nets and Variables : 400
 Total Line Count : 17
 
- Total Simulation Time: 0.05 sec
+ Total Simulation Time: 0.07 sec
 
  Current Memory Usage: 270.082 Meg
 
-Wed Oct 18 10:10:06 2023
+Wed Oct 18 16:08:25 2023
 
