@@ -1,0 +1,29 @@
+Command line:
+   complementador_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54959
+
+Tue Oct 17 13:32:55 2023
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 194.58 Meg
+
+ Total Signals          : 32
+ Total Nets             : 21
+ Total Signal Drivers   : 12
+ Total Blocks           : 11
+ Total Primitive Blocks : 9
+ Total Processes        : 12
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 386
+Total Line Count : 9
+
+ Total Simulation Time: 0.04 sec
+
+ Current Memory Usage: 270.082 Meg
+
+Tue Oct 17 14:01:59 2023
+

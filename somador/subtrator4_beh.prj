@@ -1,0 +1,4 @@
+vhdl work "somador1.vhd"
+vhdl work "somador.vhd"
+vhdl work "complementador.vhd"
+vhdl work "subtrator4.vhd"

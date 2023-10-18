@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2023-10-16T23:26:39</DateModified>
+  <DateModified>2023-10-17T12:27:15</DateModified>
   <ModuleName>somador4</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>/home/giron/somador/iseconfig/somador4.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/giron/somador/</ImplementationReportsDirectory>
+  <SavedFilePath>/home/giron/ula/Ula_4bits/somador/iseconfig/somador4.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/giron/ula/Ula_4bits/somador/</ImplementationReportsDirectory>
   <DateInitialized>2023-09-26T13:36:44</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

@@ -5,5 +5,8 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/giron/ula/Ula_4bits/somador/subtrator4.vhd</arg>&quot; line <arg fmt="%d" index="2">64</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">zs</arg>&apos; of component &apos;<arg fmt="%s" index="4">complementador</arg>&apos;.
+</msg>
+
 </messages>
 

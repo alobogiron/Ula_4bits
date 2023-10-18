@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "/home/giron/somador/somador4_isim_beh.exe" -prj "/home/giron/somador/somador4_beh.prj" "work.somador4" 
+-intstyle "ise" -incremental -o "/home/giron/ula/Ula_4bits/somador/subtrator4_isim_beh.exe" -prj "/home/giron/ula/Ula_4bits/somador/subtrator4_beh.prj" "work.subtrator4" 

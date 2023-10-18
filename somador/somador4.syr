@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.03 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.03 secs
  
 --> 
 Reading design: somador4.prj
@@ -107,10 +107,13 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "/home/giron/somador/somador1.vhd" in Library work.
-Entity <somador1> compiled.
-Entity <somador1> (Architecture <hardware>) compiled.
-Compiling vhdl file "/home/giron/somador/somador.vhd" in Library work.
+WARNING:HDLParsers:3607 - Unit work/somador4 is now defined in a different file.  It was defined in "/home/giron/somador/somador.vhd", and is now defined in "/home/giron/ula/Ula_4bits/somador/somador.vhd".
+WARNING:HDLParsers:3607 - Unit work/somador4/hardware is now defined in a different file.  It was defined in "/home/giron/somador/somador.vhd", and is now defined in "/home/giron/ula/Ula_4bits/somador/somador.vhd".
+WARNING:HDLParsers:3607 - Unit work/somador1 is now defined in a different file.  It was defined in "/home/giron/somador/somador1.vhd", and is now defined in "/home/giron/ula/Ula_4bits/somador/somador1.vhd".
+WARNING:HDLParsers:3607 - Unit work/somador1/hardware is now defined in a different file.  It was defined in "/home/giron/somador/somador1.vhd", and is now defined in "/home/giron/ula/Ula_4bits/somador/somador1.vhd".
+Compiling vhdl file "/home/giron/ula/Ula_4bits/somador/somador1.vhd" in Library work.
+Architecture hardware of Entity somador1 is up to date.
+Compiling vhdl file "/home/giron/ula/Ula_4bits/somador/somador.vhd" in Library work.
 Entity <somador4> compiled.
 Entity <somador4> (Architecture <hardware>) compiled.
 
@@ -139,7 +142,7 @@ Entity <somador1> analyzed. Unit <somador1> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <somador1>.
-    Related source file is "/home/giron/somador/somador1.vhd".
+    Related source file is "/home/giron/ula/Ula_4bits/somador/somador1.vhd".
     Found 1-bit xor3 for signal <s>.
     Summary:
 	inferred   1 Xor(s).
@@ -147,7 +150,7 @@ Unit <somador1> synthesized.
 
 
 Synthesizing Unit <somador4>.
-    Related source file is "/home/giron/somador/somador.vhd".
+    Related source file is "/home/giron/ula/Ula_4bits/somador/somador.vhd".
 Unit <somador4> synthesized.
 
 
@@ -297,14 +300,14 @@ Delay:               9.518ns (Levels of Logic = 6)
 
 
 Total REAL time to Xst completion: 2.00 secs
-Total CPU time to Xst completion: 2.22 secs
+Total CPU time to Xst completion: 2.21 secs
  
 --> 
 
 
-Total memory usage is 512688 kilobytes
+Total memory usage is 512824 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    0 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

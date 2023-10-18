@@ -1,11 +1,27 @@
-V3 7
+V3 17
 FL /home/giron/somador/somador.vhd 2023/10/16.23:27:09 P.20131013
-EN work/somador4 1697509684 FL /home/giron/somador/somador.vhd \
-      PB ieee/std_logic_1164 1381692176
-AR work/somador4/hardware 1697509685 \
-      FL /home/giron/somador/somador.vhd EN work/somador4 1697509684 CP somador1
 FL /home/giron/somador/somador1.vhd 2023/10/16.23:26:22 P.20131013
-EN work/somador1 1697509682 FL /home/giron/somador/somador1.vhd \
+FL /home/giron/ula/Ula_4bits/somador/complementador.vhd 2023/10/17.13:32:39 P.20131013
+EN work/complementador 1697634135 \
+      FL /home/giron/ula/Ula_4bits/somador/complementador.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/somador1/hardware 1697509683 \
-      FL /home/giron/somador/somador1.vhd EN work/somador1 1697509682
+AR work/complementador/hardware 1697634136 \
+      FL /home/giron/ula/Ula_4bits/somador/complementador.vhd \
+      EN work/complementador 1697634135 CP somador4
+FL /home/giron/ula/Ula_4bits/somador/somador.vhd 2023/10/17.13:55:54 P.20131013
+EN work/somador4 1697634133 FL /home/giron/ula/Ula_4bits/somador/somador.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/somador4/hardware 1697634134 \
+      FL /home/giron/ula/Ula_4bits/somador/somador.vhd EN work/somador4 1697634133 \
+      CP somador1
+FL /home/giron/ula/Ula_4bits/somador/somador1.vhd 2023/10/16.23:26:22 P.20131013
+EN work/somador1 1697634131 FL /home/giron/ula/Ula_4bits/somador/somador1.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/somador1/hardware 1697634132 \
+      FL /home/giron/ula/Ula_4bits/somador/somador1.vhd EN work/somador1 1697634131
+FL /home/giron/ula/Ula_4bits/somador/subtrator4.vhd 2023/10/17.14:05:50 P.20131013
+EN work/subtrator4 1697634137 FL /home/giron/ula/Ula_4bits/somador/subtrator4.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/subtrator4/hardware 1697634138 \
+      FL /home/giron/ula/Ula_4bits/somador/subtrator4.vhd EN work/subtrator4 1697634137 \
+      CP complementador CP somador4
