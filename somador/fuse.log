@@ -1,25 +1,21 @@
-Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/giron/ula/Ula_4bits/somador/subtrator4_isim_beh.exe -prj /home/giron/ula/Ula_4bits/somador/subtrator4_beh.prj work.subtrator4 
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/giron/ula/Ula_4bits/somador/somador3_isim_beh.exe -prj /home/giron/ula/Ula_4bits/somador/somador3_beh.prj work.somador3 
 ISim P.20131013 (signature 0xfbc00daa)
 Number of CPUs detected in this system: 16
 Turning on mult-threading, number of parallel sub-compilation jobs: 32 
 Determining compilation order of HDL files
 Parsing VHDL file "/home/giron/ula/Ula_4bits/somador/somador1.vhd" into library work
 Parsing VHDL file "/home/giron/ula/Ula_4bits/somador/somador.vhd" into library work
-Parsing VHDL file "/home/giron/ula/Ula_4bits/somador/complementador.vhd" into library work
-Parsing VHDL file "/home/giron/ula/Ula_4bits/somador/subtrator4.vhd" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 83180 KB
-Fuse CPU Usage: 470 ms
+Fuse Memory Usage: 83020 KB
+Fuse CPU Usage: 420 ms
 Compiling package standard
 Compiling package std_logic_1164
 Compiling architecture hardware of entity somador1 [somador1_default]
-Compiling architecture hardware of entity somador4 [somador4_default]
-Compiling architecture hardware of entity complementador [complementador_default]
-Compiling architecture hardware of entity subtrator4
+Compiling architecture hardware of entity somador3
 Time Resolution for simulation is 1ps.
-Compiled 9 VHDL Units
-Built simulation executable /home/giron/ula/Ula_4bits/somador/subtrator4_isim_beh.exe
-Fuse Memory Usage: 2221764 KB
-Fuse CPU Usage: 500 ms
-GCC CPU Usage: 400 ms
+Compiled 5 VHDL Units
+Built simulation executable /home/giron/ula/Ula_4bits/somador/somador3_isim_beh.exe
+Fuse Memory Usage: 2221672 KB
+Fuse CPU Usage: 440 ms
+GCC CPU Usage: 130 ms

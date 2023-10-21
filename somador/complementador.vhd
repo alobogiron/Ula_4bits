@@ -32,32 +32,32 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity complementador is
 	Port(
 		zs: out std_logic;
-		x: in std_logic_vector (3 downto 0);
-		z: out std_logic_vector (3 downto 0)
+		x: in std_logic_vector (2 downto 0);
+		z: out std_logic_vector (2 downto 0)
 	);
 end complementador;
 
 architecture hardware of complementador is
 
-	component somador4
+	component somador3
 		port(
-			x,y: in std_logic_vector (3 downto 0);
+			x,y: in std_logic_vector (2 downto 0);
 			ze : in  std_logic;
 			zs : out  std_logic;
-			s : out std_logic_vector (3 downto 0)
+			s : out std_logic_vector (2 downto 0)
 		);
 	end component;
 
-	signal z_i : std_logic_vector (3 downto 0);
+	signal z_i : std_logic_vector (2 downto 0);
 	constant cc : std_logic :='1';
 
 begin
 
 	looop:
-	for i in 0 to 3 generate
+	for i in 0 to 2 generate
 		z_i(i) <= x(i) XOR cc;
 	end generate looop;
-	adder : somador4 PORT MAP (z_i, "0000", '1', zs, z); 
+	adder : somador3 PORT MAP (z_i, "000", '1', zs, z); 
 
 end hardware;
 

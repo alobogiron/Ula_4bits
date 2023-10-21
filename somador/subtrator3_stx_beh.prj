@@ -1,0 +1,4 @@
+vhdl isim_temp "somador1.vhd"
+vhdl isim_temp "somador.vhd"
+vhdl isim_temp "complementador.vhd"
+vhdl isim_temp "subtrator4.vhd"
