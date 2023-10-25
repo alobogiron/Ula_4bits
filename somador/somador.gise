@@ -23,15 +23,25 @@
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="comparador3_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="comparador3_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="complementador_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="complementador_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dobrador3_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="dobrador3_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="dobrador3_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dobrador3_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="incrementador3_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="incrementador3_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="somador3_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="shift3_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="shift3_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="somador1_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="somador1_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="somador3_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="somador3_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="somador3_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="somador4.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="somador4.lso"/>
@@ -73,23 +83,23 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1697850072" xil_pn:in_ck="2602201387354666991" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1697850072">
+    <transform xil_pn:end_ts="1697896338" xil_pn:in_ck="-8556040338004106599" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1697896338">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="comparador3.vhd"/>
       <outfile xil_pn:name="complementador.vhd"/>
+      <outfile xil_pn:name="dobrador3.vhd"/>
+      <outfile xil_pn:name="incrementador3.vhd"/>
+      <outfile xil_pn:name="shift3.vhd"/>
       <outfile xil_pn:name="somador.vhd"/>
       <outfile xil_pn:name="somador1.vhd"/>
       <outfile xil_pn:name="subtrator4.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1697850216" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-2419113144743385924" xil_pn:start_ts="1697850216">
+    <transform xil_pn:end_ts="1697896339" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-1699645479979892524" xil_pn:start_ts="1697896339">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1697850216" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-2928136683928735740" xil_pn:start_ts="1697850216">
+    <transform xil_pn:end_ts="1697896339" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3838326002441301788" xil_pn:start_ts="1697896339">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -97,45 +107,38 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1697850073" xil_pn:in_ck="2602201387354666991" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1697850073">
+    <transform xil_pn:end_ts="1697896339" xil_pn:in_ck="-8556040338004106599" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1697896339">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="comparador3.vhd"/>
       <outfile xil_pn:name="complementador.vhd"/>
+      <outfile xil_pn:name="dobrador3.vhd"/>
+      <outfile xil_pn:name="incrementador3.vhd"/>
+      <outfile xil_pn:name="shift3.vhd"/>
       <outfile xil_pn:name="somador.vhd"/>
       <outfile xil_pn:name="somador1.vhd"/>
       <outfile xil_pn:name="subtrator4.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1697850216" xil_pn:in_ck="2602201387354666991" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="3878160498026248856" xil_pn:start_ts="1697850216">
+    <transform xil_pn:end_ts="1697896340" xil_pn:in_ck="-8556040338004106599" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-96898979346525496" xil_pn:start_ts="1697896339">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="dobrador3_beh.prj"/>
+      <outfile xil_pn:name="dobrador3_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="somador3_beh.prj"/>
-      <outfile xil_pn:name="somador3_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1697850294" xil_pn:in_ck="-5368256215988067027" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3432195609718472283" xil_pn:start_ts="1697850294">
+    <transform xil_pn:end_ts="1697896340" xil_pn:in_ck="-6422489476947522648" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="5087325242537003189" xil_pn:start_ts="1697896340">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="dobrador3_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="somador3_isim_beh.wdb"/>
     </transform>
     <transform xil_pn:end_ts="1697509679" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1697509679">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -179,6 +182,7 @@
       <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <status xil_pn:value="OutputRemoved"/>

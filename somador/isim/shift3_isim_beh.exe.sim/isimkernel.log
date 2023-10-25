@@ -1,0 +1,29 @@
+Command line:
+   shift3_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52407
+
+Sat Oct 21 10:46:07 2023
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 194.58 Meg
+
+ Total Signals          : 2
+ Total Nets             : 6
+ Total Signal Drivers   : 3
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 3
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 366
+Total Line Count : 3
+
+ Total Simulation Time: 0.03 sec
+
+ Current Memory Usage: 270.082 Meg
+
+Sat Oct 21 10:47:08 2023
+
