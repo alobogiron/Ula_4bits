@@ -16,7 +16,7 @@
 ## Significados do Array de flags
 |Endereço| Significado|
 |---|---|
-| `00` | Zero |
-| `01` | Sinal |
-| `10` | Carry out |
-| `11` | Overflow |
+| `0` | Zero |
+| `1` | Sinal |
+| `2` | Carry out |
+| `3` | Overflow |
