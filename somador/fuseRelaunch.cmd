@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "/home/giron/ula/Ula_4bits/somador/dobrador3_isim_beh.exe" -prj "/home/giron/ula/Ula_4bits/somador/dobrador3_beh.prj" "work.dobrador3" 
+-intstyle "ise" -incremental -o "/home/giron/ula/Ula_4bits/somador/contador_isim_beh.exe" -prj "/home/giron/ula/Ula_4bits/somador/contador_beh.prj" "work.contador" 
