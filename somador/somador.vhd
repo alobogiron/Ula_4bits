@@ -41,6 +41,5 @@ begin
 	x0: somador1 PORT MAP(x(0), y(0), ze, s(0), v(1)); -- soma x(0) com y(0) e c(0) e preenche s(0) com a soma e v(1) com o 'vai um' caso seja necessário
 	x1: somador1 PORT MAP(x(1), y(1), v(1), s(1), v(2)); --soma x(1) com y(1) e v(1) e preenche s(1) com a soma e v(2) com o 'vai um' caso seja necessário
 	x2: somador1 PORT MAP(x(2), y(2), v(2), s(2), zs); --soma x(2) com y(2) e v(2) e preenche s(2) com a soma e v(3) com o 'vai um' caso seja necessário
-	
 end hardware;
 
