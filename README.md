@@ -14,6 +14,7 @@
 | `111` | Comparar |
 
 ## Significados do Array de flags
+|Endereço| Significado|
 |---|---|
 | '00' | Zero |
 | '01' | Sinal |
