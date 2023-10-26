@@ -12,3 +12,11 @@
 | `101` | Shift |
 | `110` | Dobrar |
 | `111` | Comparar |
+
+## Significados do Array de flags
+|Endereço| Significado|
+|---|---|
+| `0` | Zero |
+| `1` | Sinal |
+| `2` | Carry out |
+| `3` | Overflow |
