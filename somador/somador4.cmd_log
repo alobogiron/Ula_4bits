@@ -1,2 +1,0 @@
-xst -intstyle ise -ifn "/home/giron/somador/somador4.xst" -ofn "/home/giron/somador/somador4.syr" 
-xst -intstyle ise -ifn "/home/giron/ula/Ula_4bits/somador/somador4.xst" -ofn "/home/giron/ula/Ula_4bits/somador/somador4.syr" 

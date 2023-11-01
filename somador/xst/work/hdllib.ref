@@ -1,8 +1,0 @@
-EN complementador NULL /home/giron/ula/Ula_4bits/somador/complementador.vhd sub00/vhpl04 1697634135
-AR somador1 hardware /home/giron/ula/Ula_4bits/somador/somador1.vhd sub00/vhpl01 1697634132
-EN subtrator4 NULL /home/giron/ula/Ula_4bits/somador/subtrator4.vhd sub00/vhpl06 1697634137
-AR complementador hardware /home/giron/ula/Ula_4bits/somador/complementador.vhd sub00/vhpl05 1697634136
-AR somador4 hardware /home/giron/ula/Ula_4bits/somador/somador.vhd sub00/vhpl03 1697634134
-EN somador1 NULL /home/giron/ula/Ula_4bits/somador/somador1.vhd sub00/vhpl00 1697634131
-EN somador4 NULL /home/giron/ula/Ula_4bits/somador/somador.vhd sub00/vhpl02 1697634133
-AR subtrator4 hardware /home/giron/ula/Ula_4bits/somador/subtrator4.vhd sub00/vhpl07 1697634138

@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -o "/home/giron/ula/Ula_4bits/somador/ula_isim_beh.exe" -prj "/home/giron/ula/Ula_4bits/somador/ula_beh.prj" "work.ula" 
